@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display =swap'); 
+*{ 
+    margin: 0; 
+    padding: 0; 
+} 
+header{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px 10%; 
+    font-family: Poppins; 
+} 
+header .logo span{ 
+    color: rgb(223, 8, 37); 
+} 
+header .navBar ul li{ 
+    display: inline-block; 
+    margin: 5px 30px;
+    justify-content: space-around; } 
+header .navBar ul li a{ 
+    text-decoration: none; 
+    color: #000; 
+    font-weight: 600; 
+} 
+header .navBar ul li a:hover{ 
+    color: crimson; 
+    transition: .3s; 
+} 
+.konten{ 
+    display: flex; 
+    justify-content: space-between;  margin: 100px 10%; 
+    font-weight: bold; 
+    font-family: Poppins; 
+} 
+.konten table tr td.tdawal{ 
+    width: 200px; 
+} 
+.konten table tr td:nth-child(2){  
+    width: 20px; 
+} 
+.konten .kiri{ 
+    width: 40%; 
+} 
+.konten table tr{ 
+    margin: 20px; 
+} 
+.konten .kiri .sosmed{ 
+    display: flex; 
+    margin-top: 200px; 
+    justify-content: space-around; } 
+.konten .kiri .sosmed svg:nth-child(1){  
+    color: blue; 
+} 
+.konten .kiri .sosmed svg:nth-child(2){  
+    color: rgb(241, 23, 205); 
+} 
+.konten .kiri .sosmed svg:nth-child(3){  
+    color: rgb(23, 241, 41); 
+} 
+.konten .kanan{ 
+    width: 40%; 
+    padding-left: 100px;
+    border-left: solid 0.9px; 
+    height: auto; 
+} 
+.konten .kanan img{ 
+    margin: auto; 
+    border-radius: 50px; 
+    width: 100px; 
+    height: 100px; 
+} 
+.konten .kanan p{ 
+    margin-top: 30px; 
+} 
+.konten .kanan h3{ 
+    font-size: 1.4em; 
+    font-weight: bolder; 
+} 
